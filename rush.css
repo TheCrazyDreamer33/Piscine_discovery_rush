@@ -1,0 +1,61 @@
+.parallax {
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(migouel.jpg);
+}
+
+.parallax2 {
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(http://images.uncyclomedia.co/desencyclopedie/fr/2/27/RaptorJesus.jpg);
+}
+
+.parallax3 {
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(http://sitedemonstre.e-monsite.com/medias/site/logos/39bpdyn_seirjfulq1azt-o0sgw.jpg);
+}
+
+#footer {
+	color : grey;
+	background: whitesmoke;
+	padding: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.button1 {
+	position: absolute;
+	top: 40vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.button2 {
+	position: absolute;
+	top: 60vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+button {
+	border: 1px solid grey;
+	background-color: rgb(220, 220, 220, 0.4);
+	border-radius: 12px;
+	height: 50px;
+	width: 200px;
+	color: black;
+	font-size: 1.5em;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
