@@ -35,18 +35,37 @@
 	width: 100%;
 }
 
+.button1:hover {
+	background-color: rgb(128, 128, 128, 0.4);
+}
+
 .button1 {
 	position: absolute;
-	top: 40vh;
-	left: 50%;
+	top: 50vh;
+	left: 30%;
 	transform: translate(-50%, -50%);
+}
+
+.button2:hover {
+	background-color: rgb(128, 128, 128, 0.4);
 }
 
 .button2 {
 	position: absolute;
-	top: 60vh;
+	top: 50vh;
+	left: 70%;
+	transform: translate(-50%, -50%);
+}
+
+.button3 {
+	position: absolute;
+	top: 50vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.button3:hover {
+	background-color: rgb(128, 128, 128, 0.4);
 }
 
 button {
