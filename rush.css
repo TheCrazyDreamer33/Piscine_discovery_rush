@@ -4,7 +4,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-image: url(migouel.jpg);
+	background-image: url(https://42.fr/wp-content/uploads/2021/07/L1018059-2000x1331.jpg);
 }
 
 .parallax2 {
@@ -25,6 +25,33 @@
 	background-image: url(http://sitedemonstre.e-monsite.com/medias/site/logos/39bpdyn_seirjfulq1azt-o0sgw.jpg);
 }
 
+.img1 {
+	position: fixed;
+	height: 20vh;
+	width:	auto;
+	top: 40vh;
+	left: 70%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.img2 {
+	position: fixed;
+	height: 20vh;
+	width:	auto;
+	top: 40vh;
+	left: 30%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.img11 {
+	height: 100%;
+	width: auto;
+	position: relative;
+	border-radius: 50%;
+}
+
 #footer {
 	color : grey;
 	background: whitesmoke;
@@ -40,10 +67,13 @@
 }
 
 .button1 {
-	position: absolute;
-	top: 50vh;
+	position: fixed;
+	width: 25vh;
+	height: 8vh;
+	top: 60vh;
 	left: 30%;
 	transform: translate(-50%, -50%);
+	font-size: 4vh;
 }
 
 .button2:hover {
@@ -51,10 +81,13 @@
 }
 
 .button2 {
-	position: absolute;
-	top: 50vh;
+	position: fixed;
+	height: 8vh;
+	width: 25vh;
+	top: 60vh;
 	left: 70%;
 	transform: translate(-50%, -50%);
+	font-size: 4vh;
 }
 
 .button3 {
@@ -77,4 +110,41 @@ button {
 	color: black;
 	font-size: 1.5em;
 	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+	margin-top: 5vh;
+}
+
+.maps {
+	width: 100vw;
+}
+
+.socials {
+	position: relative;
+	height: 5vh;
+	width: 5vh;
+	left: 5%;
+	font-size: 4vh;
+	font-size: 20px;
+	color: #34b7a7;
+	background: #effbf9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow: none;
+	margin-bottom: 5vh;
+	font-size: 3vh;
+}
+
+.b1 {
+	position: relative;
+	top: 4vh;
+	left: 20%;
+}
+
+.logo {
+	position: relative;
+	width: 3vw;
 }
